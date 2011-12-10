@@ -75,14 +75,4 @@ window.onresize = function() {
         $("#background img").height(browserwidth * ratio);
 
       }
-	if(current == _history){
-		var hw = $("#historyHolder").children().length*window.innerWidth;
-			$("#hContainer").css({width:window.innerWidth});
-	
-			$("#historyHolder").css({width:hw});
-			$(".itemHolder").css({width:window.innerWidth});
-	}
-	else {
-
-	}
 }
